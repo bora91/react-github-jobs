@@ -1,10 +1,15 @@
 import React from 'react';
+import {Container, Segment} from 'semantic-ui-react';
 
 function App() {
   return (
-    <div>
-      Hello World!
-    </div>
+    <Container>
+      <Segment.Group>
+        <Segment>Container1</Segment>
+        <Segment>Container2</Segment>
+        <Segment>Container3</Segment>
+      </Segment.Group>
+    </Container>
   );
 }
 
